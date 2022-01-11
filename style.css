@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+@keyframes sabrin{
+    0%{
+        color: blue;
+    }
+    20%{
+        color: blueviolet;
+    }
+    40%{
+        color: chartreuse;
+    }
+    60%{
+        color: darkcyan;
+    }
+    80%{
+        color: darkorchid;
+    }
+    100%{
+        color: fuchsia;
+    }
+}
+
+
+header h1{
+    animation: sabrin 6s infinite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    
+    
+}
+@media only screen and (max-width: 480px) {
+    header {
+      background-color: rgb(29, 226, 45);
+      text-align: center;
+      height: 50px;
+      border-radius: 10px;
+    }
+    .container{
+        border: 10px dotted greenyellow;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        width: 80%;
+        height: 80%;
+        border-radius: 10px;
+        
+    }
+  }
